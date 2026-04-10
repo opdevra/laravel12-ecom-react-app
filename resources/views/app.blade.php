@@ -15,7 +15,7 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
-        @inertia
+        <div id="app" data-page='{!! json_encode($page) !!}'></div>
     </body>
 </html>
 
